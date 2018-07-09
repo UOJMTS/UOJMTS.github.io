@@ -55,6 +55,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/*video*/
+#videosList {
+ max-width: 600px; 
+  overflow: hidden;
+}
+
+.video {
+  background-image: url('BAHA.JPG');
+  height: 400px;
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+
+
 body {
   line-height: 1; }
 
