@@ -21,6 +21,18 @@ function hideVideo(e) {
 }
 
 
+//video1
+
+var figure = $(".video1").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}
+
 	// Breakpoints.
 		breakpoints({
 			default:   ['1681px',   null       ],

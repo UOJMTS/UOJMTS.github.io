@@ -68,6 +68,14 @@ footer, header, hgroup, menu, nav, section {
   margin-bottom: 25px;
 }
 
+.video1 {
+  background-image: url('formula.JPG');
+  height: 400px;
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+
 /* Hide Play button + controls on iOS */
 video::-webkit-media-controls {
     display:none !important;
