@@ -770,7 +770,7 @@ table.alt tbody tr td {
     .highlights > :nth-child(2n) {
       width: calc(50% + 0rem); }
     .highlights .content {
-      padding: 2rem; } }
+      padding: 3rem; } }
   @media screen and (max-width: 736px) {
     .highlights > * {
       width: 100%; }
